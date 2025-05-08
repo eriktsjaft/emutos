@@ -25,7 +25,7 @@ it it it st IDT_24H|IDT_DDMMYY|'/'
 se us se st IDT_24H|IDT_DDMMYY|'/'
 sg de sg st IDT_24H|IDT_DDMMYY|'.'
 fi fi se st IDT_24H|IDT_DDMMYY|'.'
-no us no st IDT_24H|IDT_DDMMYY|'/'
+no no no st IDT_24H|IDT_DDMMYY|'.'
 nl nl nl st IDT_24H|IDT_DDMMYY|'-'
 
 cz cs cz l2 IDT_24H|IDT_DDMMYY|'.'
