@@ -1,0 +1,1679 @@
+# -*-C-*- I hate emacs po mode
+#
+# no.po: translation to Norwegian (Norsk)
+# CLI left in English intentionally
+#
+msgid ""
+msgstr ""
+"Last-Translator: Erik Tsjaft <eriktsjaft@proton.me>\n"
+"Language-Team: Norwegian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: bios/bios.c
+msgid "Memory test"
+msgstr "Minnetest"
+
+#: bios/bios.c
+msgid "complete"
+msgstr "fullført"
+
+#: bios/bios.c
+msgid "aborted"
+msgstr "avbrutt"
+
+#: bios/bios.c
+msgid ""
+"System halted!\n"
+msgstr ""
+"Systemet stoppet!\n"
+
+#: bios/initinfo.c
+msgid "GEMDOS drives"
+msgstr "GEMDOS-stasjoner"
+
+#: bios/initinfo.c
+msgid "MB"
+msgstr "MB"
+
+#: bios/initinfo.c desk/deskinf.c
+msgid "KB"
+msgstr "KB"
+
+#: bios/initinfo.c
+msgid "EmuTOS Version"
+msgstr "EmuTOS-versjon"
+
+#: bios/initinfo.c
+msgid "CPU type"
+msgstr "CPU-type"
+
+#: bios/initinfo.c
+msgid "Machine"
+msgstr "Maskin"
+
+#: bios/initinfo.c
+msgid "Boot time"
+msgstr "Oppstartstid"
+
+#: bios/initinfo.c
+msgid "Hold <Control> to skip AUTO/ACC"
+msgstr "Hold <Ctrl>: hoppe over AUTO/ACC"
+
+#: bios/initinfo.c
+msgid "Hold <Alternate> to skip HDD boot"
+msgstr "Hold <Alt>: hoppe over oppstart av HD"
+
+#: bios/initinfo.c
+msgid "Press key 'X' to boot from X:"
+msgstr "Trykk 'X': starte opp fra X:"
+
+#: bios/initinfo.c
+msgid "Press <Esc> to run an early console"
+msgstr "Trykk <Esc>: kjøre en tidlig konsoll"
+
+#: bios/initinfo.c
+msgid "Hold <Shift> to pause this screen"
+msgstr "Hold <Shift>: beholde denne skjermen"
+
+#: bios/kprint.c
+msgid ""
+"\n"
+"*** Press any key to continue ***"
+msgstr ""
+"\n"
+"*** Enhver tast for å fortsette ***"
+
+#: bdos/osmem.c
+msgid ""
+"\033EOut of internal memory.\n"
+"Use FOLDR100.PRG to get more.\n"
+"System halted!\n"
+msgstr ""
+"\033ETom for internminne.\n"
+"Bruk FOLDR100.PRG for å få mer.\n"
+"Systemet har stoppet!\n"
+
+#: aes/gem_rsc.c
+msgid "Selection: ________.___"
+msgstr "Utvalg:    ________.___"
+
+#: aes/gem_rsc.c
+msgid "Directory:"
+msgstr "Katalog:"
+
+#: aes/gem_rsc.c desk/desk_rsc.c
+msgid "Drive:"
+msgstr "Stasjon:"
+
+#: aes/gem_rsc.c desk/desk_rsc.c
+msgid "OK"
+msgstr "OK"
+
+#: aes/gem_rsc.c desk/desk_rsc.c
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: aes/gem_rsc.c
+msgid "[1]["
+"The disk in drive %c: is|"
+"physically write-protected.]"
+"[Cancel|Retry]"
+msgstr "[1]["
+"Disken in stasjon %c: er|"
+"fysisk skrivebeskyttet.]"
+"[Avbryt|Prøv igjen]"
+
+#: aes/gem_rsc.c
+msgid "[2]["
+"Drive %c: is not responding.|"
+"Please check the disk drive,|"
+"or insert a disk.]"
+"[Cancel|Retry]"
+msgstr "[2]["
+"Stasjon A: svarer ikke. Sjekk|"
+"diskstasjonen, eller sett inn|"
+"en diskett.]"
+"[Avbryt|Prøv igjen]"
+
+#: aes/gem_rsc.c
+msgid "[1]["
+"Data on the disk in drive %c:|"
+"may be damaged.]"
+"[Cancel|Retry]"
+msgstr "[1]["
+"Dataene på disken i stasjon|"
+"%c: kan være skadet.]"
+"[Avbryt|Prøv igjen]"
+
+#: aes/gem_rsc.c
+msgid "[2]["
+"This application cannot read|"
+"data on the disk in drive %c:.]"
+"[Cancel|Retry]"
+msgstr "[2]["
+"Dette programmet kan ikke|"
+"lese dataene på disken i|"
+"stasjon %c:.]"
+"[Avbryt|Prøv igjen]"
+
+#: aes/gem_rsc.c
+msgid "[1]["
+"Your output device is not|"
+"receiving data.]"
+"[Cancel|Retry]"
+msgstr "[1]["
+"Utdataenheten din mottar|"
+"ikke data.]"
+"[Avbryt|Prøv igjen]"
+
+#: aes/gem_rsc.c
+msgid "[3]["
+"An error has occurred in GEM.|"
+"Please contact the EmuTOS|"
+"Development Team.]"
+"[Cancel]"
+msgstr "[3]["
+"Det har oppstått en feil i GEM.|"
+"Ta kontakt med EmuTOS-|"
+"utviklingsteamet.]"
+"[Avbryt]"
+
+#: aes/gem_rsc.c
+msgid "[2]["
+"This application cannot|"
+"find the folder or file|"
+"you just tried to access.]"
+"[  OK  ]"
+msgstr "[1]["
+"Dette programmet finner ikke|"
+"mappen eller filen du nettopp|"
+"prøvde å få tilgang til.]"
+"[  OK  ]"
+
+#: aes/gem_rsc.c
+msgid "[1]["
+"This application does not|"
+"have room to open another|"
+"document.  To make room,|"
+"close any document that|"
+"you do not need.]"
+"[  OK  ]"
+msgstr "[1]["
+"Dette programmet har ikke|"
+"plass til å åpne et annet|"
+"dokument. For å frigjøre|"
+"plass, lukk alle dokumenter du|"
+"ikke trenger.]"
+"[  OK  ]"
+
+#: aes/gem_rsc.c
+msgid "[1]["
+"An item with this name|"
+"already exists in the|"
+"directory, or this item|"
+"is set to Read Only status.]"
+"[  OK  ]"
+msgstr "[1]["
+"Et element med dette navnet|"
+"finnes allerede i katalogen,|"
+"eller dette elementet er satt|"
+"til Skrivebeskyttet status.]"
+"[  OK  ]"
+
+#: aes/gem_rsc.c
+msgid "[1]["
+"The drive you specified|"
+"does not exist.]"
+"[Cancel]"
+msgstr "[1]["
+"Stasjonen du anga|"
+"finnes ikke.]"
+"[Avbryt]"
+
+#: aes/gem_rsc.c
+msgid "[1]["
+"There is not enough memory|"
+"in your computer for the|"
+"application you just tried|"
+"to run.]"
+"[  OK  ]"
+msgstr "[1]["
+"Det er ikke nok minne på|"
+"datamaskinen din til|"
+"programmet du nettopp|"
+"prøvde å kjøre.]"
+"[  OK  ]"
+
+#: aes/gem_rsc.c
+msgid "[3]["
+"TOS error #%u.]"
+"[Cancel]"
+msgstr "[3]["
+"TOS-feil #%u.]"
+"[Avbryt]"
+
+#: aes/gem_rsc.c
+msgid "[3]["
+"Unsupported AES function #%d.]"
+"[Cancel]"
+msgstr "[3]["
+"Ustøtted AES-funksjon #%d.]"
+"[Avbryt]"
+
+#: aes/gem_rsc.c
+msgid "[1]["
+"Not enough memory for|"
+"this directory]"
+"[  OK  ]"
+msgstr "[1]["
+"Ikke nok minne for|"
+"denne katalogen]"
+"[  OK  ]"
+
+#: aes/gem_rsc.c
+msgid "ITEM SELECTOR"
+msgstr "ELEMENTVELGER"
+
+#: desk/desk_rsc.c
+msgid "Name: ________.___"
+msgstr "Navn: ________.___"
+
+#: desk/desk_rsc.c
+msgid "Number of folders:         _____"
+msgstr "Antall mapper:         _____"
+
+#: desk/desk_rsc.c
+msgid "Number of files:         _____"
+msgstr "Antall filer:         _____"
+
+#: desk/desk_rsc.c
+msgid "Skip"
+msgstr "Hopp over"
+
+#: desk/desk_rsc.c
+msgid "Install"
+msgstr "Installer"
+
+#: desk/desk_rsc.c
+msgid "Remove"
+msgstr "Fjerner"
+
+#: desk/desk_rsc.c
+msgid "Yes"
+msgstr "Ja"
+
+#: desk/desk_rsc.c
+msgid "No"
+msgstr "Nei"
+
+#: desk/desk_rsc.c
+msgid "Size:   __________"
+msgstr "Størrelse:   __________"
+
+#: desk/desk_rsc.c
+msgid "Date:   __________"
+msgstr "Dato:   __________"
+
+#: desk/desk_rsc.c
+msgid "Time:   __:__ __  "
+msgstr "Tid:   __:__ __  "
+
+#: desk/desk_rsc.c
+msgid "Drive identifier:  _           "
+msgstr "Stasjonidentifikator:  _        "
+
+#: desk/desk_rsc.c
+msgid "Disk label:  ________.___"
+msgstr "Disketikett:  ________.___"
+
+#: desk/desk_rsc.c
+msgid "Bytes used:    __________"
+msgstr "Byte brukt:    __________"
+
+#: desk/desk_rsc.c
+msgid "Bytes available:    __________"
+msgstr "Bytes tilgjengelig:   __________"
+
+#: desk/desk_rsc.c
+msgid "Identifier: _:"
+msgstr "Identifikator: _:"
+
+#: desk/desk_rsc.c
+msgid "Label: ____________"
+msgstr "Etikett: ____________"
+
+#: desk/desk_rsc.c
+msgid "Application name: ________.___"
+msgstr "Programnavn: ________.___"
+
+#: desk/desk_rsc.c
+msgid "Arguments: ___________"
+msgstr "Argumenter: ___________"
+
+#: desk/desk_rsc.c
+msgid "Document type: ___"
+msgstr "Dokumenttype: ___"
+
+#: desk/desk_rsc.c
+msgid "Install as: F__"
+msgstr "Installer som: F__"
+
+#: desk/desk_rsc.c
+msgid "Current name: ________.___"
+msgstr "Nåværende navn: ________.___"
+
+#: desk/desk_rsc.c
+msgid "Copy's name: ________.___"
+msgstr "Kopiens navn: ________.___"
+
+#: desk/desk_rsc.c
+msgid "Key: ^_"
+msgstr "Tast: ^_"
+
+#: desk/desk_rsc.c
+msgid "Free RAM: _____________________"
+msgstr "Tilgj.RAM: _____________________"
+
+#: desk/desk_rsc.c
+msgid "Label: ________.___"
+msgstr "Etikett: ________.___"
+
+#: desk/desk_rsc.c
+msgid " Desk "
+msgstr " Skrivebord "
+
+#: desk/desk_rsc.c
+msgid " File "
+msgstr " Fil "
+
+#: desk/desk_rsc.c
+msgid " View "
+msgstr " Utsikt "
+
+#: desk/desk_rsc.c
+msgid " Options "
+msgstr " Alternativer "
+
+#: desk/desk_rsc.c
+msgid "  Desktop info..."
+msgstr "  Info om skrivebordet.."
+
+#: desk/desk_rsc.c
+msgid "  Open"
+msgstr "  Åpne"
+
+#: desk/desk_rsc.c
+msgid "  Info/Rename..."
+msgstr "  Info/Endre navn..."
+
+#: desk/desk_rsc.c
+msgid "  Search..."
+msgstr "  Søk..."
+
+#: desk/desk_rsc.c
+msgid "  New folder..."
+msgstr "  Ny mappe..."
+
+#: desk/desk_rsc.c
+msgid "  Close folder"
+msgstr "  Lukk mappen"
+
+#: desk/desk_rsc.c
+msgid "  Close top window"
+msgstr "  Lukk øverste vinduet"
+
+#: desk/desk_rsc.c
+msgid "  Cycle windows"
+msgstr "  Sykle vinduene"
+
+#: desk/desk_rsc.c
+msgid "  Select all items"
+msgstr "  Velg alle elementene"
+
+#: desk/desk_rsc.c
+msgid "  Set file mask..."
+msgstr "  Angi filmaske..."
+
+#: desk/desk_rsc.c
+msgid "  Delete..."
+msgstr "  Slett..."
+
+#: desk/desk_rsc.c
+msgid "  Format floppy..."
+msgstr "  Formater diskett..."
+
+#: desk/desk_rsc.c
+msgid "  Eject floppy"
+msgstr "  Løs ut diskett"
+
+#: desk/desk_rsc.c
+msgid "  Execute EmuCON"
+msgstr "  Kjør EmuCON"
+
+#: desk/desk_rsc.c
+msgid "  Shutdown"
+msgstr "  Slå av"
+
+#: desk/desk_rsc.c
+msgid "  Show as icons"
+msgstr "  Vis som ikoner"
+
+#: desk/desk_rsc.c
+msgid "  Show as text"
+msgstr "  Vis som tekst"
+
+#: desk/desk_rsc.c
+msgid "  Sort by name"
+msgstr "  Etter navn"
+
+#: desk/desk_rsc.c
+msgid "  Sort by type"
+msgstr "  Etter type"
+
+#: desk/desk_rsc.c
+msgid "  Sort by size"
+msgstr "  Etter størrelse"
+
+#: desk/desk_rsc.c
+msgid "  Sort by date"
+msgstr "  Etter dato"
+
+#: desk/desk_rsc.c
+msgid "  No sort"
+msgstr "  Ikke sorter"
+
+#: desk/desk_rsc.c
+msgid "  Size to fit"
+msgstr "  Tilpass til innhold"
+
+#: desk/desk_rsc.c
+msgid "  Set background..."
+msgstr "  Angi bakgrunn..."
+
+#: desk/desk_rsc.c
+msgid "  Install icon..."
+msgstr "  Installer ikon..."
+
+#: desk/desk_rsc.c
+msgid "  Install application..."
+msgstr "  Installer program..."
+
+#: desk/desk_rsc.c
+msgid "  Install devices"
+msgstr "  Installer enheter"
+
+#: desk/desk_rsc.c
+msgid "  Remove desktop icon"
+msgstr "  Fjern skrivebordsikonet"
+
+#: desk/desk_rsc.c
+msgid "  Set preferences..."
+msgstr "  Angi innstillinger..."
+
+#: desk/desk_rsc.c
+msgid "  Desktop configuration..."
+msgstr "  Konfigurer skrivebordet..."
+
+#: desk/desk_rsc.c
+msgid "  Change resolution..."
+msgstr "  Endre oppløsning..."
+
+#: desk/desk_rsc.c
+msgid "  Read .INF file..."
+msgstr "  Les .INF-fil..."
+
+#: desk/desk_rsc.c
+msgid "  Save desktop..."
+msgstr "  Lagre skrivebordet..."
+
+#: desk/desk_rsc.c
+msgid "  Blitter"
+msgstr "  Blitter"
+
+#: desk/desk_rsc.c
+msgid "  Cache"
+msgstr "  Hurtigbuffer"
+
+#: desk/desk_rsc.c
+msgid "Read/Write"
+msgstr "Les/skriv"
+
+#: desk/desk_rsc.c
+msgid "Read-Only"
+msgstr "Skrivebeskyttet"
+
+#: desk/desk_rsc.c
+msgid "DISK INFORMATION"
+msgstr "DISKINFORMASJON"
+
+#: desk/desk_rsc.c
+msgid "Version"
+msgstr "Versjon"
+
+#: desk/desk_rsc.c
+msgid "Copyright \275 2001-"
+msgstr "Opphavsrett © 2001-"
+
+#: desk/desk_rsc.c
+msgid "The EmuTOS development team"
+msgstr "EmuTOS-utviklingsteamet"
+
+#: desk/desk_rsc.c
+msgid "Based on 'GPLed' sources"
+msgstr "Basert på 'GPLt' kilder"
+
+#: desk/desk_rsc.c
+msgid "\275 1987 Digital Research, Inc."
+msgstr "© 1987 Digital Research, Inc."
+
+#: desk/desk_rsc.c
+msgid "\275 1999 Caldera Thin Clients, Inc."
+msgstr "© 1999 Caldera Thin Clients, Inc."
+
+#: desk/desk_rsc.c
+msgid "\275 2001 Lineo, Inc."
+msgstr "© 2001 Lineo, Inc."
+
+#: desk/desk_rsc.c
+msgid "EmuTOS is distributed under the GPL"
+msgstr "EmuTOS distribueres under GPL"
+
+#: desk/desk_rsc.c
+msgid "See doc\\license.txt for details"
+msgstr "Se doc\\license.txt for detaljer"
+
+#: desk/desk_rsc.c
+msgid "OPEN APPLICATION"
+msgstr "ÅPNE PROGRAM"
+
+#: desk/desk_rsc.c
+msgid "Parameters:"
+msgstr "Parametere:"
+
+#: desk/desk_rsc.c
+msgid "INSTALL DESKTOP ICON"
+msgstr "INSTALLER SKRIVEBORDSIKON"
+
+#: desk/desk_rsc.c
+msgid "Item type:"
+msgstr "Elementtype:"
+
+#: desk/desk_rsc.c
+msgid "Drive"
+msgstr "Stasjon"
+
+#: desk/desk_rsc.c
+msgid "Trash can"
+msgstr "Søppelbøtte"
+
+#: desk/desk_rsc.c
+msgid "Printer"
+msgstr "Skriver"
+
+#: desk/desk_rsc.c
+msgid "Icon:"
+msgstr "Ikon:"
+
+#: desk/desk_rsc.c
+msgid "INSTALL APPLICATION"
+msgstr "INSTALLER PROGRAM"
+
+#: desk/desk_rsc.c
+msgid "Boot status:"
+msgstr "Oppstartsstatus:"
+
+#: desk/desk_rsc.c
+msgid "Auto"
+msgstr "Auto"
+
+#: desk/desk_rsc.c
+msgid "Normal"
+msgstr "Normal"
+
+#: desk/desk_rsc.c
+msgid "Application type:"
+msgstr "Programtype:"
+
+#: desk/desk_rsc.c
+msgid "Default dir:"
+msgstr "Standardkat.:"
+
+#: desk/desk_rsc.c
+msgid "Application"
+msgstr "Program"
+
+#: desk/desk_rsc.c
+msgid "Window"
+msgstr "Vindu"
+
+#: desk/desk_rsc.c
+msgid "Parameter:"
+msgstr "Parameter:"
+
+#: desk/desk_rsc.c
+msgid "Full path"
+msgstr "Full sti"
+
+#: desk/desk_rsc.c
+msgid "File name"
+msgstr "Filnavn"
+
+#: desk/desk_rsc.c
+msgid "NAME CONFLICT DURING COPY"
+msgstr "NAVNEKONFLIKT UNDER KOPIERING"
+
+#: desk/desk_rsc.c
+msgid "Stop"
+msgstr "Stopp"
+
+#: desk/desk_rsc.c
+msgid "NEW FOLDER"
+msgstr "NY MAPPE"
+
+#: desk/desk_rsc.c
+msgid "SEARCH FILE"
+msgstr "SØK FILEN"
+
+#: desk/desk_rsc.c
+msgid "PRINT FILE"
+msgstr "SKRIV FILEN"
+
+#: desk/desk_rsc.c
+msgid "SET PREFERENCES"
+msgstr "ANGI INNSTILLINGER"
+
+#: desk/desk_rsc.c
+msgid "Confirm deletes:"
+msgstr "Bekreft sletting:"
+
+#: desk/desk_rsc.c
+msgid "Confirm copies:"
+msgstr "Bekreft kopiering:"
+
+#: desk/desk_rsc.c
+msgid "Confirm overwrites:"
+msgstr "Bekreft overskriving:"
+
+#: desk/desk_rsc.c
+msgid "Double-click speed:"
+msgstr "Dobbeltklikkhastighet:"
+
+#: desk/desk_rsc.c
+msgid "Time format:"
+msgstr "Tidsformat:"
+
+#: desk/desk_rsc.c
+msgid "Default"
+msgstr "Standard"
+
+#: desk/desk_rsc.c
+msgid "12H"
+msgstr "12t"
+
+#: desk/desk_rsc.c
+msgid "24H"
+msgstr "24t"
+
+#: desk/desk_rsc.c
+msgid "Date format:"
+msgstr "Datoformat:"
+
+#: desk/desk_rsc.c
+msgid "MDY"
+msgstr "MDÅ"
+
+#: desk/desk_rsc.c
+msgid "DMY"
+msgstr "DMÅ"
+
+#: desk/desk_rsc.c
+msgid "SET FILE MASK"
+msgstr "ANGI FILMASKE"
+
+#: desk/desk_rsc.c
+msgid "DESKTOP CONFIGURATION"
+msgstr "KONFIGURER SKRIVEBORDET"
+
+#: desk/desk_rsc.c
+msgid "Function keys:"
+msgstr "Funksjonstaster:"
+
+#: desk/desk_rsc.c
+msgid "Menu shortcut keys:"
+msgstr "Menysnarveietaster:"
+
+#: desk/desk_rsc.c
+msgid "Clear all"
+msgstr "Fjern alle"
+
+#: desk/desk_rsc.c
+msgid "SET SCREEN RESOLUTION"
+msgstr "ANGI SKJERMOPPLØSNING"
+
+#: desk/desk_rsc.c
+msgid "ST Low"
+msgstr "ST lav"
+
+#: desk/desk_rsc.c
+msgid "ST Medium"
+msgstr "ST middels"
+
+#: desk/desk_rsc.c
+msgid "ST High"
+msgstr "ST høy"
+
+#: desk/desk_rsc.c
+msgid "TT Low"
+msgstr "TT lav"
+
+#: desk/desk_rsc.c
+msgid "TT Medium"
+msgstr "TT middels"
+
+#: desk/desk_rsc.c
+msgid "High"
+msgstr "Høy"
+
+#: desk/desk_rsc.c
+msgid "Medium"
+msgstr "Middels"
+
+#: desk/desk_rsc.c
+msgid "Low"
+msgstr "Lav"
+
+#: desk/desk_rsc.c
+msgid "ST Compatible"
+msgstr "ST-kompatibel"
+
+#: desk/desk_rsc.c
+msgid "INSTALL WINDOW ICON"
+msgstr "INSTALLER VINDUSIKON"
+
+#: desk/desk_rsc.c
+msgid "Folder"
+msgstr "Mappe"
+
+#: desk/desk_rsc.c
+msgid "File"
+msgstr "File"
+
+#: desk/desk_rsc.c
+msgid "Monochrome only"
+msgstr "Kun monokrom"
+
+#: desk/desk_rsc.c
+msgid "FORMAT FLOPPY DISKETTE"
+msgstr "FORMATER DISKETT"
+
+#: desk/desk_rsc.c
+msgid "SS 360 K"
+msgstr "SS 360 K"
+
+#: desk/desk_rsc.c
+msgid "DS 720 K"
+msgstr "DS 720 K"
+
+#: desk/desk_rsc.c
+msgid "DS 800 K"
+msgstr "DS 800 K"
+
+#: desk/desk_rsc.c
+msgid "HD 1.44 M"
+msgstr "HD 1.44 M"
+
+#: desk/desk_rsc.c
+msgid "SET BACKGROUND"
+msgstr "ANGI BAKGRUNN"
+
+#: desk/desk_rsc.c
+msgid "Select:"
+msgstr "Velg:"
+
+#: desk/desk_rsc.c
+msgid "Desktop"
+msgstr "Skrivebord"
+
+#: desk/desk_rsc.c
+msgid "Style:"
+msgstr "Stil:"
+
+#: desk/desk_rsc.c
+msgid "Color:"
+msgstr "Farge:"
+
+#: desk/desk_rsc.c
+msgid " %ld bytes used in %d items."
+msgstr " %ld byte brukt i %d elementer."
+
+#: desk/desk_rsc.c
+msgid " %ld bytes used in %d selected items."
+msgstr " %ld byte brukt i %d valgte elementer."
+
+#: desk/desk_rsc.c
+msgid "FILE INFORMATION"
+msgstr "FILINFORMASJON"
+
+#: desk/desk_rsc.c
+msgid "FOLDER INFORMATION"
+msgstr "MAPPEINFORMASJON"
+
+#: desk/desk_rsc.c
+msgid "COPY FILE(S)"
+msgstr "KOPIER FIL(ER)"
+
+#: desk/desk_rsc.c
+msgid "MOVE FILE(S)"
+msgstr "FLYTT FIL(ER)"
+
+#: desk/desk_rsc.c
+msgid "DELETE FILE(S)"
+msgstr "SLETT FIL(ER)"
+
+#: desk/desk_rsc.c
+msgid "DISK"
+msgstr "DISK"
+
+#: desk/desk_rsc.c
+msgid "TRASH"
+msgstr "SØPPELBØTTE"
+
+#: desk/desk_rsc.c
+msgid "PRINTER"
+msgstr "SKRIVER"
+
+#: desk/desk_rsc.c
+msgid "-More-"
+msgstr "-Mer-"
+
+#: desk/desk_rsc.c
+msgid "-End of file-"
+msgstr "-Slutt på filen-"
+
+#: desk/desk_rsc.c
+msgid "-File read error-"
+msgstr "-Feil mid fillesing-"
+
+#: desk/desk_rsc.c
+msgid "Locate item"
+msgstr "Finn elementet"
+
+#: desk/desk_rsc.c
+msgid "Select .INF file"
+msgstr "Velg .INF-fil"
+
+#: desk/desk_rsc.c
+msgid "[2]["
+"Switch resolution?]"
+"[ Yes | No ]"
+msgstr "[2]["
+"Bytt oppløsning?]"
+"[ Ja | Nei ]"
+
+#: desk/desk_rsc.c
+msgid "[2]["
+"Show or print this document?]"
+"[Show|Print|Cancel]"
+msgstr "[2]["
+"Vise eller skrive ut|"
+"dette dokumentet?]"
+"[Vise|Skrive ut|Avbryt]"
+
+#: desk/desk_rsc.c
+msgid "[1]["
+"Print error!]"
+"[ Retry | Cancel ]"
+msgstr "[1]["
+"Feil med utskrift!]"
+"[Prøv igjen| Avbryt ]"
+
+#: desk/desk_rsc.c
+msgid "[1]["
+"This document type has no|"
+"associated application.]"
+"[  OK  ]"
+msgstr "[1]["
+"Denne dokumenttypen har ingen|"
+"tilknytten applikasjon.]"
+"[  OK  ]"
+
+#: desk/desk_rsc.c
+msgid "[1]["
+"The GEM Desktop has no more|"
+"windows.  Please close a|"
+"window that you are not|"
+"using.]"
+"[  OK  ]"
+msgstr "[1]["
+"Skrivebordet har ikke flere|"
+"vinduer. Lukk et vindu du|"
+"ikke bruker.]"
+"[  OK  ]"
+
+#: desk/desk_rsc.c
+msgid "[1]["
+"Illegal directory operation!]"
+"[ Skip | Abort ]"
+msgstr "[1]["
+"Ulovlig katalogoperasjon!]"
+"[Hopp over| Avbryt ]"
+
+#: desk/desk_rsc.c
+msgid "[1]["
+"Illegal operation!]"
+"[  OK  ]"
+msgstr "[1]["
+"Ulovlig operasjon!]"
+"[  OK  ]"
+
+#: desk/desk_rsc.c
+msgid "[2]["
+"Abort this operation?]"
+"[ Yes | No ]"
+msgstr "[2]["
+"Avbryte denne operasjonen?]"
+"[ Ja | Nei ]"
+
+#: desk/desk_rsc.c
+msgid "[2]["
+"Do you want to delete all|"
+"the files on drive %c: ?]"
+"[Yes| No ]"
+msgstr "[2]["
+"Vil du slette alle filene|"
+"på stasjon %c:?]"
+"[ Ja | Nei ]"
+
+#: desk/desk_rsc.c
+msgid "[1]["
+"Sorry, the desktop cannot|"
+"install any more icons|"
+"or applications.]"
+"[  OK  ]"
+msgstr "[1]["
+"Skrivebordet kan ikke|"
+"installere flere ikoner|"
+"eller programmer.]"
+"[  OK  ]"
+
+#: desk/desk_rsc.c
+msgid "[2]["
+"You cannot create a folder|"
+"with that name. Please retry|"
+"with a new name, or cancel.]"
+"[Cancel|Retry]"
+msgstr "[2]["
+"Du kan ikke opprette en|"
+"mappe med det navnet. Prøv|"
+"på nytt med et nytt navn,|"
+"eller avbryt.]"
+"[Avbryt|Prøv igjen]"
+
+#: desk/desk_rsc.c
+msgid "[1]["
+"Drive %c: does not have|"
+"enough room for this|"
+"operation.]"
+"[  OK  ]"
+msgstr "[1]["
+"Stasjon %c: har ikke|"
+"nok plass til denne|"
+"operasjonen.]"
+"[  OK  ]"
+
+#: desk/desk_rsc.c
+msgid "[3]["
+"You cannot create or|"
+"access a folder this far|"
+"down the directory path.]"
+"[  OK  ]"
+msgstr "[3]["
+"Du kan ikke opprette eller|"
+"få tilgang til en mappe så|"
+"langt nede i katalogstien.]"
+"[  OK  ]"
+
+#: desk/desk_rsc.c
+msgid "[3]["
+"You cannot create or access|"
+"a file or folder with that|"
+"name, because the pathname|"
+"is too long.]"
+"[  OK  ]"
+msgstr "[3]["
+"Du kan ikke opprette eller|"
+"få tilgang til en fil eller|"
+"mappe med det navnet, fordi|"
+"banenavnet er for langt.]"
+"[  OK  ]"
+
+#: desk/desk_rsc.c
+msgid "[1]["
+"%s is used to|"
+"permanently delete files|"
+"or folders.]"
+"[  OK  ]"
+msgstr "[1]["
+"%s brukes til å slette|"
+"filer eller mapper permanent.]"
+"[  OK  ]"
+
+#: desk/desk_rsc.c
+msgid "[1]["
+"%s|"
+"is a printer.]"
+"[  OK  ]"
+msgstr "[1]["
+"%s|"
+"er en skriver.]"
+"[  OK  ]"
+
+#: desk/desk_rsc.c
+msgid "[1]["
+"You cannot drag applications,|"
+"files or folders onto the|"
+"Desktop.]"
+"[  OK  ]"
+msgstr "[1]["
+"Du kan ikke dra programmer,|"
+"filer eller mapper|"
+"til skrivebordet.]"
+"[  OK  ]"
+
+#: desk/desk_rsc.c
+msgid "[2]["
+"Save Desktop?]"
+"[  OK  |Cancel]"
+msgstr "[2]["
+"Lagre skrivebordet?]"
+"[  OK  |Avbryt]"
+
+#: desk/desk_rsc.c
+msgid "[2]["
+"Do you want to remove icons|"
+"or delete files?]"
+"[Icons|Files|Cancel]"
+msgstr "[2]["
+"Vil du fjerne ikoner|"
+"eller slette filer?]"
+"[Ikoner|Filer|Avbryt]"
+
+#: desk/desk_rsc.c
+msgid "[1]["
+"Invalid function key value.]"
+"[  OK  ]"
+msgstr "[1]["
+"Ugyldig funksjonstastverdi.]"
+"[  OK  ]"
+
+#: desk/desk_rsc.c
+msgid "[2]["
+"Function key already assigned.|"
+"Do you want to reassign it?]"
+"[  OK  |Cancel]"
+msgstr "[2]["
+"Funksjonstasten er allerede|"
+"tilordnet. Vil du tilordne|"
+"den på nytt?]"
+"[  OK  |Avbryt]"
+
+#: desk/desk_rsc.c
+msgid "[3]["
+"Not enough memory to|"
+"initialise EmuDesk.|"
+"You must reboot.]"
+"[  OK  ]"
+msgstr "[3]["
+"Ikke nok minne til å|"
+"initialisere EmuDesk.|"
+"Du må starte datamaskinen|"
+"på nytt.]"
+"[  OK  ]"
+
+#: desk/desk_rsc.c
+msgid "[2]["
+"%s not found.|"
+"Do you want to remove the|"
+"icon or locate the item?]"
+"[Remove|Locate|Cancel]"
+msgstr "[2]["
+"%s ikke funnet. Vil du fjerne|"
+"ikonet eller finne elementet?]"
+"[Slett|Finn|Avbryt]"
+
+#: desk/desk_rsc.c
+msgid "[1]["
+"Please select icon type.]"
+"[Desktop|Window|Cancel]"
+msgstr "[2]["
+"Velg ikontype.]"
+"[Skrivebord|Vindu|Avbryt]"
+
+#: desk/desk_rsc.c
+msgid "[1]["
+"No matching file type.]"
+"[  OK  ]"
+msgstr "[1]["
+"Ingen samsvarende filtype.]"
+"[  OK  ]"
+
+#: desk/desk_rsc.c
+msgid "[3]["
+"Formatting error. The target|"
+"disk may be write-protected|"
+"or unusable.]"
+"[ Retry | Abort ]"
+msgstr "[3]["
+"Formateringsfeil. Måldisken|"
+"kan være skrivebeskyttet|"
+"eller ubrukelig.]"
+"[Prøv igjen| Avbryt ]"
+
+#: desk/desk_rsc.c
+msgid "[1]["
+"This disk has %ld bytes|"
+"available to the user.]"
+"[ Continue | Quit ]"
+msgstr "[1]["
+"Denne disken har %ld byte|"
+"tilgjengelig for brukeren.]"
+"[Fortsette| Avslutt ]"
+
+#: desk/desk_rsc.c
+msgid "[1]["
+"Drive %s: does not exist.]"
+"[ Cancel ]"
+msgstr "[1]["
+"Stasjon %s: finnes ikke.]"
+"[ Avbryt ]"
+
+#: desk/desk_rsc.c
+msgid "[1]["
+"No drive identifier.]"
+"[ Retry ]"
+msgstr "[1]["
+"Ingen stasjonidentifikator.]"
+"[Prøv igjen]"
+
+#: desk/desk_rsc.c
+msgid "[1]["
+"Cannot delete file|"
+"%s]"
+"[ Skip | Retry | Abort ]"
+msgstr "[1]["
+"Kan ikke slette fil|"
+"%s]"
+"[Hopp over|Prøv igjen| Avbryt ]"
+
+#: desk/desk_rsc.c
+msgid "[1]["
+"Cannot delete directory|"
+"%s]"
+"[ Skip | Retry | Abort ]"
+msgstr "[1]["
+"Kan ikke slette katalog|"
+"%s]"
+"[Hopp over|Prøv igjen| Avbryt ]"
+
+#: desk/desk_rsc.c
+msgid "[1]["
+"Not enough memory.]"
+"[  OK  ]"
+msgstr "[1]["
+"Ikke nok minne.]"
+"[  OK  ]"
+
+#: desk/desk_rsc.c
+msgid "[1]["
+"%s not found.]"
+"[  OK  ]"
+msgstr "[1]["
+"%s ikke funnet.]"
+"[  OK  ]"
+
+#: desk/desk_rsc.c
+msgid "[1]["
+"Cannot open file|"
+"%s]"
+"[ Skip | Retry | Abort ]"
+msgstr "[1]["
+"Kan ikke åpne filen|"
+"%s]"
+"[Hopp over|Prøv igjen| Avbryt ]"
+
+#: desk/desk_rsc.c
+msgid "[1]["
+"Cannot create file|"
+"%s]"
+"[ Skip | Retry | Abort ]"
+msgstr "[1]["
+"Kan ikke opprette fil|"
+"%s]"
+"[Hopp over|Prøv igjen| Avbryt ]"
+
+#: desk/desk_rsc.c
+msgid "[1]["
+"Cannot read file|"
+"%s]"
+"[ Skip | Abort ]"
+msgstr "[1]["
+"Kan ikke lese fil|"
+"%s]"
+"[Hopp over| Avbryt ]"
+
+#: desk/desk_rsc.c
+msgid "[1]["
+"Cannot write file|"
+"%s]"
+"[ Skip | Abort ]"
+msgstr "[1]["
+"Kan ikke skrive fil|"
+"%s]"
+"[Hopp over| Avbryt ]"
+
+#: desk/desk_rsc.c
+msgid "[1]["
+"Rename error!]"
+"[ Retry | Cancel ]"
+msgstr "[1]["
+"Feil med navneendring!]"
+"[Prøv igjen| Avbryt ]"
+
+#: desk/desk_rsc.c
+msgid "[1]["
+"Failed to set default|"
+"directory.]"
+"[  OK  ]"
+msgstr "[1]["
+"Kunn ikke angi|"
+"standardkatalog.]"
+"[  OK  ]"
+
+#: desk/desk_rsc.c
+msgid "[1]["
+"Illegal .INF file format.]"
+"[  OK  ]"
+msgstr "[1]["
+"Ulovlig .INF-filformat.]"
+"[  OK  ]"
+
+#: desk/desk_rsc.c
+msgid "[2]["
+"Continue to search?]"
+"[  OK  |Cancel]"
+msgstr "[2]["
+"Fortsette å søke?]"
+"[  OK  |Avbryt]"
+
+#: desk/desk_rsc.c
+msgid "[1]["
+"No more files.]"
+"[  OK  ]"
+msgstr "[1]["
+"Ingen flere filer.]"
+"[  OK  ]"
+
+#: desk/desk_rsc.c
+msgid "[2]["
+"Last key is already assigned.|"
+"Do you want to reassign it?]"
+"[  OK  |Cancel]"
+msgstr "[2]["
+"Den siste tasten er allerede|"
+"tilordnet. Vil du tilordne|"
+"den på nytt?]"
+"[  OK  |Avbryt]"
+
+#: cli/cmdint.c
+msgid "Copy <filespec> ... to standard output"
+msgstr "Gib <filespec> ... auf der Standard-Ausgabe aus"
+
+#: cli/cmdint.c
+msgid "Change current directory to <dir>"
+msgstr "ï¿½ndere das aktuelle Verzeichnis zu <dir>"
+
+#: cli/cmdint.c
+msgid "or display current directory"
+msgstr "oder gib das aktuelle Verzeichnis aus"
+
+#: cli/cmdint.c
+msgid "Change attributes for <filename>"
+msgstr "ï¿½ndere Attribute von <filename>"
+
+#: cli/cmdint.c
+msgid "<mode> specifies the new attribute(s):"
+msgstr "<mode> gibt die neuen Attribute an:"
+
+#: cli/cmdint.c
+msgid "r=read-only  h=hidden  s=system  -=none"
+msgstr "r=nur lesen  h=versteckt  s=System  -=keine"
+
+#: cli/cmdint.c
+msgid "Clear screen"
+msgstr "Bildschirm lï¿½schen"
+
+#: cli/cmdint.c
+msgid "Copy files matching <filespec> to <dest>"
+msgstr "Kopiere Dateien die auf <filespec> passen nach <dest>"
+
+#: cli/cmdint.c
+msgid "If <filespec> matches multiple files,"
+msgstr "Falls <filespec> mehrere Dateien beschreibt,"
+
+#: cli/cmdint.c
+msgid "<dest> must be a directory"
+msgstr "dann muss <dest> ein Verzeichnis sein."
+
+#: cli/cmdint.c
+msgid "Copy <string> ... to standard output"
+msgstr "Gib <string> ... auf der Standard-Ausgabe aus"
+
+#: cli/cmdint.c
+msgid "Strings may be surrounded by \"\""
+msgstr "Zeichenketten mï¿½ssen von \"\" umgeben werden"
+
+#: cli/cmdint.c
+msgid "Exit EmuCON2"
+msgstr "EmuCON2 verlassen"
+
+#: cli/cmdint.c
+msgid "Get help about <cmd> or list available commands"
+msgstr "Hilfe ï¿½ber <cmd> oder verfï¿½gbare Kommandos anzeigen"
+
+#: cli/cmdint.c
+msgid "Use HELP ALL for help on all commands"
+msgstr "Benutze HELP ALL um Hilfe zu allen Kommandos zu bekommen"
+
+#: cli/cmdint.c
+msgid "Use HELP EDIT for help on line editing"
+msgstr "Benutze HELP EDIT um Hilfe zur Zeileneingabe zu bekommen"
+
+#: cli/cmdint.c
+msgid "List files (default terse, horizontal)"
+msgstr "Dateien auflisten (standardmï¿½ï¿½ig kompakt, horizontal)"
+
+#: cli/cmdint.c
+msgid "Specify -l for detailed list"
+msgstr "Option -l fï¿½r ausfï¿½hrliche Auflistung"
+
+#: cli/cmdint.c
+msgid "Create directory <dir>"
+msgstr "Verzeichnis <dir> erstellen"
+
+#: cli/cmdint.c
+msgid "Set or display console settings:"
+msgstr "Konsoleneinstellungen setzen oder anzeigen:"
+
+#: cli/cmdint.c
+msgid "res for screen resolution (0,1)[ST] (0,1,2,4,7)[TT];"
+msgstr "res: Bildschirmauflï¿½sung (0,1)[ST] (0,1,2,4,7)[TT];"
+
+#: cli/cmdint.c
+msgid "delay/rate for the keyboard"
+msgstr "delay/rate: Verzï¿½gerung-/Wiederholungsrate der Tastatur"
+
+#: cli/cmdint.c
+msgid "Copy <filespec> to standard output,"
+msgstr "Gibt <filespec> auf Standardausgabe aus,"
+
+#: cli/cmdint.c
+msgid "pausing every screenful"
+msgstr "mit Pause nach einem Bildschirm"
+
+#: cli/cmdint.c
+msgid "Copy files matching <filespec> to <dir>,"
+msgstr "Kopiert Dateien mit Muster <filespec> nach <dir>"
+
+#: cli/cmdint.c
+msgid "then delete input files"
+msgstr "und lï¿½scht danach die Orginaldateien"
+
+#: cli/cmdint.c
+msgid "Set search path for external programs"
+msgstr "Setzt den Suchpfad fï¿½r externe Programme"
+
+#: cli/cmdint.c
+msgid "or display current search path"
+msgstr "oder zeigt den aktuellen Suchpfad an"
+
+#: cli/cmdint.c
+msgid "Display current drive and directory"
+msgstr "Aktuelles Laufwerk und Verzeichnis anzeigen"
+
+#: cli/cmdint.c
+msgid "Rename <oldname> to <newname>"
+msgstr "ï¿½ndert Namen von <oldname> in <newname>"
+
+#: cli/cmdint.c
+msgid "Delete files matching <filespec>"
+msgstr "Lï¿½scht Dateien mit Muster <filespec>"
+
+#: cli/cmdint.c
+msgid "Specify -q to be prompted each time"
+msgstr "Option -q fï¿½r Einzelbestï¿½tigungen angeben"
+
+#: cli/cmdint.c
+msgid "Delete directory <dir>"
+msgstr "Lï¿½scht Verzeichnis <dir>"
+
+#: cli/cmdint.c
+msgid "Show info for <drive> or current drive"
+msgstr "Zeigt Infos ï¿½ber <drive> oder das aktuelle Laufwerk"
+
+#: cli/cmdint.c
+msgid "Display GEMDOS version"
+msgstr "Zeigt GEMDOS-Version an"
+
+#: cli/cmdint.c
+msgid "Set line wrap or show current status"
+msgstr "Setzt Zeilenumbruch oder zeigt aktuellen Status an"
+
+#: cli/cmdint.c
+msgid "up/down arrow = previous/next line in history"
+msgstr "Pfeil hoch/runter = vorhergehende/nachfolgende Zeile im Verlauf"
+
+#: cli/cmdint.c
+msgid "left/right arrow = previous/next character"
+msgstr "Pfeil links/rechts = vorhergehendes/nï¿½chstes Zeichen"
+
+#: cli/cmdint.c
+msgid "control-left/right arrow = previous/next word"
+msgstr "Strg-Pfeil links/rechts = vorherigesgehendes/nï¿½chstes Wort"
+
+#: cli/cmdint.c
+msgid "invalid mode argument"
+msgstr "ungï¿½ltiger Modusparameter"
+
+#: cli/cmdint.c
+msgid "Builtin commands:"
+msgstr "Eingebaute Kommandos:"
+
+#: cli/cmdint.c
+msgid "Listing of "
+msgstr "Auflistung von "
+
+#: cli/cmdint.c
+msgid "Status for CON:"
+msgstr "Status von CON:"
+
+#: cli/cmdint.c
+msgid "  Resolution:     "
+msgstr "  Auflï¿½sung:                 "
+
+#: cli/cmdint.c
+msgid "  Keyboard delay: "
+msgstr "  Tastatur Verzï¿½gerung:      "
+
+#: cli/cmdint.c
+msgid "  Keyboard rate:  "
+msgstr "  Tastatur Wiederholungsrate:"
+
+#: cli/cmdint.c
+msgid "(empty)"
+msgstr "(leer)"
+
+#: cli/cmdint.c
+msgid "Delete ALL matching files"
+msgstr "Lï¿½sche ALLE passenden Dateien"
+
+#: cli/cmdint.c
+msgid "Delete file "
+msgstr "Lï¿½sche Datei "
+
+#: cli/cmdint.c
+msgid "Allocation info for drive "
+msgstr "Belegungsinformation fï¿½r Laufwerk "
+
+#: cli/cmdint.c
+msgid "  Size (bytes):   "
+msgstr "  Grï¿½ï¿½e (bytes):  "
+
+#: cli/cmdint.c
+msgid "  Bytes used:     "
+msgstr "  Benutzte Bytes: "
+
+#: cli/cmdint.c
+msgid "  Bytes free:     "
+msgstr "  Freie Bytes:    "
+
+#: cli/cmdint.c
+msgid "  Total clusters: "
+msgstr "  Gesamt-Cluster: "
+
+#: cli/cmdint.c
+msgid "  Free clusters:  "
+msgstr "  Freie Cluster:  "
+
+#: cli/cmdint.c
+msgid "  Sectors/cluster:"
+msgstr " Sektoren/Cluster:"
+
+#: cli/cmdint.c
+msgid "  Bytes/sector:   "
+msgstr "  Bytes/Sektor:   "
+
+#: cli/cmdint.c
+msgid " is not a directory"
+msgstr " ist kein Verzeichnis"
+
+#: cli/cmdint.c
+msgid " and "
+msgstr " und "
+
+#: cli/cmdint.c
+msgid "Copying "
+msgstr "Kopiere "
+
+#: cli/cmdint.c
+msgid " to "
+msgstr " nach "
+
+#: cli/cmdint.c
+msgid " ... deleting "
+msgstr " ... lï¿½sche "
+
+#: cli/cmdint.c
+msgid " ... done"
+msgstr " ... fertig"
+
+#: cli/cmdint.c
+msgid " or "
+msgstr " oder "
+
+#: cli/cmdint.c
+msgid "CR to continue ..."
+msgstr "EINGABE um weiter zu machen ..."
+
+#: cli/cmdint.c
+msgid "--More--"
+msgstr "--Mehr--"
+
+#: cli/cmdmain.c
+msgid "Welcome to EmuCON2 version "
+msgstr "Willkommen bei EmuCON2 Version "
+
+#: cli/cmdmain.c
+msgid "Type HELP for builtin commands"
+msgstr "HELP zeigt Hilfe zu eingebauten Kommandos"
+
+#: cli/cmdmain.c
+msgid "warning: no history buffers"
+msgstr "Warnung: Keine Verlaufsspeicher"
+
+#: cli/cmdparse.c
+msgid "more than one redirection"
+msgstr "mehr als eine Umleitung"
+
+#: cli/cmdparse.c
+msgid "no filename for redirection"
+msgstr "kein Dateiname fï¿½r Umleitung"
+
+#: cli/cmdparse.c
+msgid "error in quoted field"
+msgstr "Fehler im Feld mit Anfï¿½hrungszeichen"
+
+#: cli/cmdparse.c
+msgid "error parsing line"
+msgstr "Fehler beim analysieren der Zeile"
+
+#: cli/cmdutil.c
+msgid "file not found"
+msgstr "Datei nicht gefunden"
+
+#: cli/cmdutil.c
+msgid "path not found"
+msgstr "Pfad nicht gefunden"
+
+#: cli/cmdutil.c
+msgid "no more file handles"
+msgstr "keine weiteren Datei-Handles"
+
+#: cli/cmdutil.c
+msgid "can't create file"
+msgstr "kann Datei nicht anlegen"
+
+#: cli/cmdutil.c
+msgid "not enough memory"
+msgstr "nicht genug Speicher"
+
+#: cli/cmdutil.c
+msgid "invalid drive"
+msgstr "ungï¿½ltiges Laufwerk"
+
+#: cli/cmdutil.c
+msgid "interrupted"
+msgstr "unterbrochen"
+
+#: cli/cmdutil.c
+msgid "invalid path"
+msgstr "ungï¿½ltiger Pfad"
+
+#: cli/cmdutil.c
+msgid "can't write to disk (full?)"
+msgstr "kann nicht auf Disk schreiben (voll?)"
+
+#: cli/cmdutil.c
+msgid "cmdline too long"
+msgstr "Kommandozeile zu lang"
+
+#: cli/cmdutil.c
+msgid "directory not empty"
+msgstr "Verzeichnis nicht leer"
+
+#: cli/cmdutil.c
+msgid "can't delete file (read-only?)"
+msgstr "kann Datei nicht lï¿½schen (schreibgeschï¿½tzt?)"
+
+#: cli/cmdutil.c
+msgid "invalid parameter"
+msgstr "ungï¿½ltiger Parameter"
+
+#: cli/cmdutil.c
+msgid "wrong number of arguments"
+msgstr "Falsche Zahl von Parametern"
+
+#: cli/cmdutil.c
+msgid "error code %ld"
+msgstr "Fehlercode %ld"
