@@ -93,7 +93,7 @@ msgid ""
 msgstr ""
 "\033ETom for internminne.\n"
 "Bruk FOLDR100.PRG for å få mer.\n"
-"Systemet har stoppet!\n"
+"Systemet stoppet!\n"
 
 #: aes/gem_rsc.c
 msgid "Selection: ________.___"
