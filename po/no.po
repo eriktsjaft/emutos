@@ -334,7 +334,7 @@ msgstr "Byte brukt:    __________"
 
 #: desk/desk_rsc.c
 msgid "Bytes available:    __________"
-msgstr "Bytes tilgjengelig:   __________"
+msgstr "Byte tilgjengelig:   __________"
 
 #: desk/desk_rsc.c
 msgid "Identifier: _:"
